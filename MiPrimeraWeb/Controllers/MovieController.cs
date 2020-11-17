@@ -85,7 +85,8 @@ namespace MiPrimeraWeb.Controllers
                 movieFind = movie;
                 movieFind.Title = movie.Title;
                 movieFind.Price = movie.Price;
-                movieFind.Genre = movie.Genre;
+                movieFind.ReleaseDate = movie.ReleaseDate;
+                movieFind.Genre = movie.Genre;  
                 return RedirectToAction("Index");
 
             }
